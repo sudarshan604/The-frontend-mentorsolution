@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+  background-color:hsl(212, 45%, 89%);
+}
+.container{
+   width: 200px;
+  background-color: white;
+ margin:0 auto;
+padding: 20px;
+border-radius: 15px;
+margin-top: 200px;
+}
+img{
+    width:200px;
+   height:200px;
+   border-radius: 15px;
+ 
+}
+.bold{
+    font-weight: 900;
+}
+.less-bold{
+    font-size:12px;
+    font-weight:300;
+  color:hsl(220, 15%, 55%);
+}
