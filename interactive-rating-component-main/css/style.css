@@ -1,3 +1,8 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
 body {
   height: 100vh;
   font-size: 15px;
@@ -123,4 +128,27 @@ h1 {
   color: orange;
   cursor: pointer;
   cursor: hand;
+}
+
+@media (max-width: 375px) {
+  body {
+    padding: 0px 8%;
+    /* background-color: #7a6110; */
+  }
+  #rateCard {
+    width: 80vh;
+  }
+  .attribution {
+    position: fixed;
+    top: 80%;
+    left: 2%;
+  }
+}
+
+@media (max-width: 700px) {
+  .attribution {
+    position: fixed;
+    top: 80%;
+    left: 9%;
+  }
 }
