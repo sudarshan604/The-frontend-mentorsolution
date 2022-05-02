@@ -1,0 +1,57 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+}
+
+.section-first {
+  min-width: 35%;
+  background: linear-gradient(45deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  height: 90vh;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-left: -80px;
+}
+
+.section-second {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-second .text {
+  width: 400px;
+  line-height: 1.3;
+}
+
+.text h1 {
+  color: hsl(271, 36%, 24%);
+  font-weight: 900;
+}
+
+/* chat application */
+
+.mobile {
+  box-sizing: border-box;
+  position: absolute;
+  min-width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: black;
+  top: 230px;
+  left: 500px;
+  padding: 10px;
+}
+
+.inside-mobile {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+}
