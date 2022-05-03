@@ -26,7 +26,7 @@ main {
 }
 
 .section-second .text {
-  width: 400px;
+  width: 30%;
   line-height: 1.3;
 }
 
@@ -39,19 +39,31 @@ main {
 
 .mobile {
   box-sizing: border-box;
-  position: absolute;
-  min-width: 300px;
+  position: fixed;
+  min-width: 250px;
   height: 500px;
   border-radius: 20px;
-  background-color: black;
-  top: 230px;
-  left: 500px;
+  background-color: white;
+  top: 23%;
+  left: 28%;
   padding: 10px;
+  box-shadow: 0 0 50px #ccc;
 }
 
 .inside-mobile {
   border-radius: 20px;
   height: 100%;
   width: 100%;
-  background-color: aliceblue;
+  background-color: hsl(270, 20%, 96%);
+  padding: 1px;
+}
+
+.round {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: -12px;
+  box-shadow: 0 0 50px #ccc;
 }
