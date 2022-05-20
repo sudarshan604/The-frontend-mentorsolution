@@ -1,38 +1,47 @@
-body{
- padding:0;
- margin:0;
- display:flex;
- justify-content:center;
- align-items:center;
- height:100vh;
-background:url('images/bg-pattern-desktop.svg');
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("images/bg-pattern-desktop.svg");
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
+.wrapper {
+  /* height: 50vh; */
+  width: 50vw;
+  background-color: cyan;
+  display: flex;
 
-
-.wrapper{
- height:50vh;
- width:50vw;
- background-color:cyan;
- display:flex;
- justify-content:space-around;
- align-items:center;
- background-color:white;
+  background-color: white;
+  padding: 60px 5px;
 }
-.image-wrapper{
-   width:50%;
-  
-  }
-section{
- width:50%;
+.image-wrapper {
+  width: 60%;
+}
+section {
+  /* border: 2px solid red; */
+  width: 40%;
+}
+section h1 {
+  font-weight: 700;
+}
+.question-collection {
+  width: 100%;
+  padding: 5px 0;
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+  font-weight: 400;
 }
 
-main{
-  width:80vw;
-  height:60vh;
-  background:linear-gradient(180deg,hsl(273, 75%, 66%),hsl(240, 73%, 65%));
-  display:flex;
- justify-content:center;
- align-items:center;
-padding:60px 0; 
+main {
+  width: 80vw;
+  height: 60vh;
+  background: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
 }
