@@ -22,6 +22,18 @@ body {
 .image-wrapper {
   width: 60%;
 }
+.image-wrapper .women {
+  width: 80%;
+  min-width: 80%;
+  position: relative;
+}
+.image-wrapper div {
+  border: 2px solid red;
+  position: relative;
+  height: 400px;
+  display: flex;
+}
+
 section {
   /* border: 2px solid red; */
   width: 40%;
@@ -35,6 +47,9 @@ section h1 {
   border-bottom: 2px solid hsl(240, 5%, 91%);
   font-weight: 400;
 }
+.question-collection:hover {
+  cursor: pointer;
+}
 
 main {
   width: 80vw;
@@ -44,4 +59,15 @@ main {
   justify-content: center;
   align-items: center;
   padding: 60px 0;
+}
+.box {
+  position: absolute;
+  width: 100%☝;
+
+  /* /  margin-bottom: 0px; */
+  top: 0;
+}
+
+.question:hover {
+  color: tomato !important;
 }

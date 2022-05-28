@@ -7,11 +7,21 @@ function Faq(props) {
   function handleClick() {
     setClick(!isClick);
   }
-  console.log(props.info);
+
+  const style = {
+    color: isClick ? "black" : "",
+    fontWeight: isClick ? "400" : "800",
+  };
+
   return (
     <div>
       <section className="question-collection">
-        <p onClick={handleClick}>{props.info.question}</p>
+        <div className="question-only">
+          <p className="question" style={style} onClick={handleClick}>
+            {props.info.question}
+          </p>
+          <span></span>{" "}
+        </div>
         {isClick ? "" : props.info.answer}
       </section>
     </div>
